@@ -66,10 +66,29 @@
     filter: grayscale(3);
 }
 
+.ex-7-img:hover{
+    filter: grayscale(3);
+    transition: 3s;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(3) sepia(7);
+    transition: 3s;
+    border-radius: 2rem;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover{
+    filter: grayscale(3) sepia(7);
+    transition: 3s;
+    border-radius: 2rem;
+    transform: scale(.6);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
